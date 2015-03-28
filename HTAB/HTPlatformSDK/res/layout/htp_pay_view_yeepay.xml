@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@layout/htp_pay_linearlayout"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_yeepay_CHL"
+            android:layout_width="105dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/htp_pay_yeepay_chl" />
+
+        <Button
+            android:id="@+id/btn_yeepay_CHU"
+            android:layout_width="105dp"
+            android:layout_height="36dp"
+            android:background="@drawable/htp_pay_yeepay_chu" />
+
+        <Button
+            android:id="@+id/btn_yeepay_CHA"
+            android:layout_width="105dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/htp_pay_yeepay_cha" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="卡号："
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/txt_card_no"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.33"
+            android:background="@drawable/htp_public_text_bg"
+            android:ems="10"
+            android:hint="请输入卡号"
+            android:singleLine="true"
+            android:textSize="15dp" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="密码："
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/txt_card_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.32"
+            android:background="@drawable/htp_public_text_bg"
+            android:ems="10"
+            android:hint="请输入密码"
+            android:singleLine="true"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="面值："
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btn_card_money"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.32"
+            android:background="@drawable/htp_public_text_bg"
+            android:ems="10"
+            android:gravity="left"
+            android:text="请选择卡面值金额"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_yeepay_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/htp_green_btn_selector"
+            android:text="确认"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_yeepay_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/htp_blue_btn_selector"
+            android:text="取消"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -13,7 +13,7 @@
 		<string></string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>cn.hbue.cynthia.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>cn.hbue.cynthia</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
